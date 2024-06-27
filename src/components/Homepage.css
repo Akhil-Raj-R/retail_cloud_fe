@@ -1,0 +1,68 @@
+body,
+html,
+#root,
+.App {
+  height: 100%;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #333;
+  padding: 5px;
+}
+
+.nav-button {
+  background: none;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-button:hover {
+  background-color: #575757;
+}
+
+.background {
+  background-image: url("./../../public/Images/komp.png");
+  background-size: cover;
+  background-position: center;
+  height: calc(100% - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 50px;
+  margin-bottom: 210px;
+  height: 250px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin: 10px 0;
+}
+
+.login-button {
+  margin-top: 1px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #575757;
+}

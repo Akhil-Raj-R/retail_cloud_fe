@@ -1,0 +1,32 @@
+.add-button {
+  text-align: center;
+  padding: 10px 15px;
+  color: black;
+  background-color: burlywood;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 30px auto 0 auto;
+  width: 200px;
+}
+
+.buttons {
+  display: flex;
+  width: 80px;
+}
+
+.adbutton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backgroundimg {
+  background-image: url("./../../public/Images/reggg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: calc(100% - 50px);
+  align-items: center;
+  justify-content: flex-end;
+}
